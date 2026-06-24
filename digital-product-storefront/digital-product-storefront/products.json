@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ebook-001",
+    "title": "The Indie Maker's Handbook",
+    "description": "A comprehensive guide to launching and growing your first digital product from scratch. Covers ideation, building in public, pricing, and getting your first 100 customers.",
+    "price": 19,
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "fileUrl": "https://example.com/downloads/indie-makers-handbook.pdf",
+    "category": "eBook"
+  },
+  {
+    "id": "template-002",
+    "title": "Notion Business OS",
+    "description": "A complete Notion workspace template with CRM, project tracker, content calendar, and financial dashboard. Instantly organize your entire business in one place.",
+    "price": 29,
+    "image": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80",
+    "fileUrl": "https://example.com/downloads/notion-business-os-template.pdf",
+    "category": "Template"
+  },
+  {
+    "id": "course-003",
+    "title": "Crypto Fundamentals Video Course",
+    "description": "12 hours of video content covering blockchain basics, DeFi, NFTs, wallet security, and how to evaluate projects. Perfect for beginners entering Web3.",
+    "price": 49,
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=600&q=80",
+    "fileUrl": "https://example.com/downloads/crypto-fundamentals-course-access.pdf",
+    "category": "Course"
+  }
+]

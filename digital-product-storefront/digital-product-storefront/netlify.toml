@@ -1,0 +1,31 @@
+# netlify.toml
+# Netlify configuration for the digital product storefront.
+# This file is picked up automatically when you deploy to Netlify.
+
+[build]
+  # The directory that contains the compiled static files after `npm run build`
+  publish = "dist"
+  # The build command — runs Vite to compile React into static files
+  command = "npm run build"
+  # Where Netlify looks for your serverless Functions
+  functions = "netlify/functions"
+
+[build.environment]
+  # Node version used during the build
+  NODE_VERSION = "20"
+
+# ── Redirects ────────────────────────────────────────────────────────────────
+# Route all page requests to index.html so React Router handles navigation.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# ── Headers ──────────────────────────────────────────────────────────────────
+# Security headers for all pages
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
